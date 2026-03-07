@@ -57,3 +57,17 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+document.getElementById("btnAbout").addEventListener("click", function() {
+
+let about = document.getElementById("about");
+
+about.style.display = "block";
+
+about.scrollIntoView({
+behavior: "smooth"
+});
+
+});
+

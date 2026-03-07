@@ -266,7 +266,18 @@ Confort et sécurité grâce à une alimentation continue.
              });
 
             };
-          </script>
+document.getElementById("btnAbout").addEventListener("click", function() {
+
+let about = document.getElementById("about");
+
+about.style.display = "block";
+
+about.scrollIntoView({
+behavior: "smooth"
+});
+
+});
+         </script>
   
     
     </body>
